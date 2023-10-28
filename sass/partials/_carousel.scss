@@ -1,0 +1,13 @@
+#carouselExample {
+    margin-top: 20px;
+  
+    .carousel-inner {
+      max-width: 80%;
+      margin: 0 auto;
+  
+      .carousel-item img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
