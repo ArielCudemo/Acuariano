@@ -11,7 +11,7 @@
   }
 }
 .nav-modificado {
-  background-color: #b3e0ff;
+  background-color: hsl(204, 100%, 85%);
 }
 
 nav img {
@@ -151,7 +151,7 @@ form input[type=reset]:hover {
 .grid {
   min-height: 100vh;
   display: grid;
-  grid-template-columns: 1f 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas: "rocio dafne" "maxi martina";
   -moz-column-gap: 1rem;
@@ -160,7 +160,16 @@ form input[type=reset]:hover {
   grid-column-gap: 1rem;
 }
 
-.professional, .rocio, .dafne, .maxi, .martina, .micaela, .agustina, .lara, .delfina, .camila, .julian {
+.professional, .rocio,
+.dafne,
+.maxi,
+.martina,
+.micaela,
+.agustina,
+.lara,
+.delfina,
+.camila,
+.julian {
   background-color: #3498db;
   color: #e6f7ff;
   padding: 20px;
@@ -169,7 +178,16 @@ form input[type=reset]:hover {
   cursor: pointer;
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
-.professional:hover, .rocio:hover, .dafne:hover, .maxi:hover, .martina:hover, .micaela:hover, .agustina:hover, .lara:hover, .delfina:hover, .camila:hover, .julian:hover {
+.professional:hover, .rocio:hover,
+.dafne:hover,
+.maxi:hover,
+.martina:hover,
+.micaela:hover,
+.agustina:hover,
+.lara:hover,
+.delfina:hover,
+.camila:hover,
+.julian:hover {
   animation: hoverEffect 0.3s ease;
   transform: scale(1.1) rotate(10deg) translateY(-10px);
   background-color: #00bee4;
